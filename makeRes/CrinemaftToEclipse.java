@@ -18,10 +18,7 @@ public class CrinemaftToEclipse
     {
     	target = new File("C:\\Dokumente und Einstellungen\\Fabi\\git\\Crinemaft-resources\\Crinemaft");
 
-	if (target.exists())
-	{
-		target.delete();
-	}
+	
     	
     	copyDir(new File("C:\\Crinemaft"), target);
     	
